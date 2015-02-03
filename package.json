@@ -1,0 +1,28 @@
+{
+    "name": "lackey-json-xlsx",
+    "version": "0.0.1",
+    "description": "Converts between JSON and XLSX files",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Enigma Marketing <admin@enigma-marketing.co.uk> (http://www.enigma-marketing.co.uk)",
+    "licenses": [{
+        "type": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/getlackey/json-xlsx.git"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-config-dir": "^0.3.2",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-jslint": "^1.1.12"
+    },
+    "dependencies": {
+        "q": "^1.1.2",
+        "xlsx": "^0.7.12"
+    }
+}
