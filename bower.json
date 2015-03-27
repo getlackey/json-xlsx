@@ -1,0 +1,22 @@
+{
+  "name": "json-xlsx",
+  "homepage": "https://github.com/getlackey/json-xlsx",
+  "authors": [
+    "Enigma Marketing"
+  ],
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "Apache 2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "xlsx": "*"
+  }
+}

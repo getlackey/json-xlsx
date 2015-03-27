@@ -17,4 +17,10 @@ module.exports = function (grunt) {
         'jslint',
         'watch'
     ]);
+
+    // keeps watching for file changes
+    grunt.registerTask('build', [
+        'jslint',
+        'browserify'
+    ]);
 };
